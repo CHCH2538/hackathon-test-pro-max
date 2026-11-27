@@ -1,3 +1,3 @@
 import 'server-only'
-
-export {}
+export { loadCasePage } from './load'
+export type { CasePageData } from './load'
