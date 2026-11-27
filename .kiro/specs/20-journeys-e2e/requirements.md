@@ -2,7 +2,7 @@
 
 ## Introduction
 
-20-journeys-e2e. Wave 2 · executor machine-a · depends on: 00-foundation
+20-journeys-e2e. Wave 3 · executor machine-a · depends on: 00-foundation
 
 ## Requirements
 

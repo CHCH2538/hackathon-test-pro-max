@@ -2,7 +2,7 @@
 
 ## Introduction
 
-31-phase2-extras. Wave 3 (Phase 2) · executor unassigned · depends on: 00-foundation
+31-phase2-extras. Wave 4 (Phase 2) · executor unassigned · depends on: 00-foundation
 
 ## Requirements
 

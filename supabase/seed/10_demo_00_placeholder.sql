@@ -1,0 +1,12 @@
+-- 91-demo-catalog (KAN-9) placeholder. Owned by 91-demo-catalog; no statements here.
+--
+-- Contract for supabase/seed/10_demo_*.sql:
+-- - Loads after 00_fixtures.sql (lexical order, sql_paths = ['./seed/*.sql']).
+-- - Upserts human-verified rows over the fixtures using the same canonical IDs:
+--   agencies, offices, services, jurisdictions: on conflict (id) do update
+--   service_requirements: on conflict (id) do update (fixed UUIDs)
+--   service_links: on conflict (from_service_id, to_service_id) do update
+--   holidays: on conflict (date, name_th) do update
+-- - Canonical service IDs (M-02): police-report-property, online-fraud-report,
+--   driving-licence-renewal, id-card-new, change-of-address.
+-- - Every row carries source_url and last_verified (N-01). Never adds migrations or columns.

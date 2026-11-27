@@ -2,7 +2,7 @@
 
 ## Introduction
 
-30-smart-pass. Wave 3 (Phase 2) · executor unassigned · depends on: 00-foundation
+30-smart-pass. Wave 4 (Phase 2) · executor unassigned · depends on: 00-foundation
 
 ## Requirements
 

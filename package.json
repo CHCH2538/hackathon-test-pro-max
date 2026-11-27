@@ -1,0 +1,50 @@
+{
+  "name": "bangkok-flow",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=24 <27"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "db:start": "supabase start",
+    "db:reset": "supabase db reset",
+    "db:types": "supabase gen types typescript --local > src/lib/db/database.types.ts",
+    "audit": "npm audit --omit=dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.14.0",
+    "@line/bot-sdk": "11.4.0",
+    "@supabase/supabase-js": "2.119.2",
+    "@vis.gl/react-google-maps": "1.10.2",
+    "next": "16.4.6",
+    "qrcode": "1.5.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "24.19.4",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.6",
+    "fast-check": "4.11.0",
+    "prettier": "3.10.1",
+    "supabase": "3.4.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "6.0.3",
+    "vite": "8.3.8",
+    "vitest": "5.1.2"
+  }
+}
