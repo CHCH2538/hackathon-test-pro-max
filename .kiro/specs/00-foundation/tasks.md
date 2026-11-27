@@ -376,7 +376,7 @@ Wave 0, executor machine-a (lead), Jira KAN-4. The tasks set up the shared codeb
   - Run `npm run dev` manually and open `/dev`, every placeholder from task group 10, `/admin` (Basic Auth prompt) and `/api/health`; check `curl -I http://localhost:3000/` shows the CSP and `Set-Cookie: bf_sid`
   - Ask the user if any check fails before continuing
 
-- [~] 14. Production deploy
+- [ ] 14. Production deploy
   - Create the Supabase project in `ap-southeast-1`, `npx supabase link`, `npx supabase db push --include-seed`; confirm the advisor shows RLS on every table
   - Create the Vercel project (Node 24, `sin1`, Pro plan for the 5-minute cron or switch to the Hobby schedules in design "Crons"); add all env vars to Production and Preview with `APP_ENV=production` and generated `CRON_SECRET`, `IP_HASH_SALT`, `ADMIN_DEMO_PASSWORD`
   - Restrict the browser Maps key by referrer and API, the server key by API; set quotas and a budget alert
