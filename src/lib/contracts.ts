@@ -39,6 +39,7 @@ export const REQUIREMENT_KINDS = ['before_go', 'document', 'step', 'remember'] a
 export type RequirementKind = (typeof REQUIREMENT_KINDS)[number]
 export const COPY_TYPES = ['original', 'copy', 'original_and_copy', 'not_applicable'] as const
 export type CopyType = (typeof COPY_TYPES)[number]
+export type DocForm = CopyType
 export const CONDITION_STATUSES = ['always', 'met', 'unknown'] as const
 export type ConditionStatus = (typeof CONDITION_STATUSES)[number]
 export const CASE_STATUSES = ['planned', 'booked', 'due', 'done', 'postponed', 'cancelled'] as const
